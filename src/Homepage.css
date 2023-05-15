@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f6f6f6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .login-button,
+  .logout-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover,
+  .logout-button:hover {
+    background-color: #45a049;
+  }
+  
+  .welcome-message {
+    margin: 20px 0;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .puzzle-container {
+    margin-top: 20px;
+    background-color: #7cc6fe;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .puzzle-question {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .puzzle-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .puzzle-option {
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  
+  .puzzle-submit {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .puzzle-submit:hover {
+    background-color: #45a049;
+  }
+  
+  .puzzle-solution {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #888888;
+  }
+  
+  .login-container{
+    width: 100%;
+    padding: 10px;
+    background-color: #7cc6fe;
+  }
