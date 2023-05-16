@@ -1,4 +1,4 @@
-# Treasure Hunt
+# Treasure Hunt -https://master--admirable-lamington-26dda8.netlify.app/
 
 A treasure hunt that tests the general knowledge and logical thinking capabilities of users.
 
