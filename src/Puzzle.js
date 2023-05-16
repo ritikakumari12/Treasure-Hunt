@@ -88,14 +88,25 @@ const Puzzle = () => {
     }
 
     if (currentStep >= questions.length) {
-      return (
-        <div>
-          <h2>Game Over!</h2>
-          <p>Your score: {score} / {questions.length}</p>
-          <button onClick={saveScore}>Save</button>
-          <p>{saveMessage}</p>
-        </div>
-      );
+      if (score === questions.length) {
+        return (
+          <div>
+            <h2>Congratulations!</h2>
+            <p>You answered all questions correctly!</p>
+            <button onClick={saveScore}>Save</button>
+            <p>{saveMessage}</p>
+          </div>
+        );
+      } else {
+        return (
+          <div>
+            <h2>Game Over!</h2>
+            <p>Your score: {score} / {questions.length}</p>
+            <button onClick={saveScore}>Save</button>
+            <p>{saveMessage}</p>
+          </div>
+        );
+      }
     }
 
     const currentQuestion = questions[currentStep];
